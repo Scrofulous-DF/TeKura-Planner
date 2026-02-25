@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Nav } from "../components/nav";
 
 
-export function Home() {
+export function HomePage() {
     const [message, setMessage] = useState('');
 
     useEffect(() => {

@@ -24,7 +24,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/api/hello", (req, res) => {
-    res.json({ message: "Hey oh, im the server" });
+    res.json({ message: "Server Updated4" });
 })
 
 app.listen(PORT, () => {
